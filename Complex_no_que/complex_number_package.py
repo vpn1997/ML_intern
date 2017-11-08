@@ -15,7 +15,7 @@ class Complex_Number:
         else:
             s="-"
         self.y=abs(self.y)
-        return ("{} "+s+" {}i").format(self.x,self.y)
+        return ("{} "+s+" {} i").format(self.x,self.y)
 
 
     def __add__(self,comp2):
